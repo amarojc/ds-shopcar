@@ -1,0 +1,46 @@
+.bg-menu {
+  background-color: #f78b00;
+}
+
+.main-nav {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 70px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 180px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.main-menu li{
+    padding-top: 0.3em;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a:hover {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: bold;
+}
